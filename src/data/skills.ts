@@ -2,7 +2,7 @@ import type { Skill } from './types'
 
 export const skills: Skill[] = [
   // Frontend
-  { name: 'React', category: 'frontend', icon: '/icons/frontend/react.svg' },
+  { name: 'React', category: 'frontend', icon: `${import.meta.env.BASE_URL}icons/frontend/react.svg` },
   { name: 'Redux', category: 'frontend', icon: '/icons/frontend/redux.svg' },
   { name: 'Next.js', category: 'frontend', icon: '/icons/frontend/nextjs.svg' },
   { name: 'Tailwind CSS', category: 'frontend', icon: '/icons/frontend/tailwind.svg' },
